@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #d76249;
+  text-align: start;
+}
+h2 {
+  color: #df816c;
+  text-align: left;
+}
+h3 {
+  text-align: left;
+}
+header {
+  background-color: #d76249;
+  height: 50px;
+  width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
+
+a:hover {
+  color: #ccc;
+}
+/*Página inicial */
+#li-image {
+  list-style-image: url(./assets/images/flower.png);
+}
+#lista-1 {
+  color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+#header {
+  display: flex;
+}
+#about-me {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.botao {
+  background-color: #d76249;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #b4651b;
+}
+
+.botao:active {
+  background-color: #c75b29;
+}
+.div-button {
+  margin-top: 20px;
+}
+
+/* experiência profissional */
+#experiencia-profissional {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  justify-content: left;
+  align-items: start;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.container img {
+  margin-right: 20px;
+  max-width: 100%;
+}
+
+/*Skills*/
+
+/*Hobbies */
+#div-hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+#div-image-hobbies {
+  width: 50%;
+  margin: 0;
+}
+#title-hobbies {
+  color: #d76249;
+}
