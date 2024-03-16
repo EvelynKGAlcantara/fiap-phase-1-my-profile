@@ -4,18 +4,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 h1 {
-  color: #d76249;
+  color: #000000;
   text-align: start;
 }
 h2 {
-  color: #df816c;
+  color: #000000;
   text-align: left;
 }
 h3 {
   text-align: left;
 }
 header {
-  background-color: #d76249;
+  background-color: #000000;
   height: 50px;
   width: 100%;
 }
@@ -42,7 +42,7 @@ li {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding: 10px;
 }
 
@@ -68,7 +68,7 @@ a:hover {
   margin-bottom: 40px;
 }
 .botao {
-  background-color: #d76249;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -82,14 +82,19 @@ a:hover {
 }
 
 .botao:hover {
-  background-color: #b4651b;
+  background-color: #4e4e4e;
 }
 
 .botao:active {
-  background-color: #c75b29;
+  background-color: #4e4e4e;
 }
 .div-button {
   margin-top: 20px;
+}
+.header_text {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 /* experiência profissional */
@@ -111,8 +116,6 @@ a:hover {
   max-width: 100%;
 }
 
-/*Skills*/
-
 /*Hobbies */
 #div-hobbies {
   display: flex;
@@ -123,5 +126,5 @@ a:hover {
   margin: 0;
 }
 #title-hobbies {
-  color: #d76249;
+  color: #000000;
 }
